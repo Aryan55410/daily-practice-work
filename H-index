@@ -6,7 +6,7 @@ class Solution:
         
         h = 0
         
-        for i in range(len(citations)):
+        for i in range(len( citations)):
             if citations[i] >= i + 1:
                 h += 1
             else:
