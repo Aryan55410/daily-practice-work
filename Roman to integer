@@ -1,4 +1,4 @@
-class Solution:
+toclass Solution:
     def romanToInt(self, s: str) -> int:
         
         roman = {
@@ -20,4 +20,4 @@ class Solution:
             else:
                 total += roman[s[i]]
 
-        return  total
+        return   total
