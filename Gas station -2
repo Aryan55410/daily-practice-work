@@ -1,9 +1,9 @@
- from typing import List
+tu from typing import List
 
 class Solution:
     def canCompleteCircuit(self, gas: List[int], cost:  List[int]) -> int:
         
-        if sum(gas) < sum(cost):
+        if sum(gas) <  sum(cost):
             return -1
         
         tank = 0
