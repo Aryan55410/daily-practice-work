@@ -9,7 +9,7 @@ class Solution:
         tank = 0
         start = 0
         
-        for i in range (len(gas) ):
+        for i in range (len( gas) ):
             tank += gas[ i] -  cost[i]
             
             if tank < 0:
