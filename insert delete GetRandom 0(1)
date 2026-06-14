@@ -21,7 +21,7 @@ class RandomizedSet:
         last_val = self.nums[-1]
         index = self.pos[val]
         
-        self.nums[index] = last_val
+        self.nums[index] =  last_val
         self.pos[last_val] = index
         
         self.nums.pop()
