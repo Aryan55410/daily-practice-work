@@ -1,7 +1,7 @@
 class Solution:
     def removeDuplicates(self, nums):
         if len(nums) <= 2:
-            return len(nums)
+            return len(nums) 
 
         i = 2 
 
