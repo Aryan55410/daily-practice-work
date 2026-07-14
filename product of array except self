@@ -8,7 +8,7 @@ class Solution:
         # LEFT product
         left = 1
         for i in range(n):
-            answer[i] = left
+            answer[i] = left 
             left *= nums[i]
         
         # RIGHT product
