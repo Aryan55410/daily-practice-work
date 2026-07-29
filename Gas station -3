@@ -4,7 +4,7 @@ class Solution:
         if sum(gas) < sum(cost):
             return -1
         
-        tank  = 0
+        tank  = 0 
         start = 0
         
         for i in range(len(gas)):
